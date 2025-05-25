@@ -1,0 +1,54 @@
+
+.menu-flutuante {
+    position: relative;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin-bottom: 10px;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    width: 85%;
+    margin: auto;
+    padding: 60px;
+    background-image: url('../img/Nier1.jpg');
+    background-size: cover;
+    height: 545px;
+ }

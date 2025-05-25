@@ -1,0 +1,16 @@
+.text {
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: rgb(170, 28, 151);
+    text-transform: none;
+    margin: 0 20px;
+    opacity: 0.0;
+    animation: fadeIn ease 10s infinite;
+    -webkit-animation: fadeIn ease 10s infinite;
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}

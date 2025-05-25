@@ -1,0 +1,51 @@
+
+.menu-flutuante {
+    position: relative;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #333;
+}

@@ -1,0 +1,144 @@
+
+
+   
+
+   .menu-container {
+      width: 100%;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+     
+   }
+
+   .menu{
+      background: rgba(0, 0, 0, 0.192);
+      border-radius: 25px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+      -webkit-backdrop-filter: blur(3.6px);
+      backdrop-filter: blur(3.6px);
+      text-align: left;
+      margin: 01;
+      padding: 0;
+   }
+   
+  
+   .sub-menu{
+      clear: both;
+      background: rgba(0, 0, 0, 0.164);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      -webkit-backdrop-filter: blur(3.6px);
+      backdrop-filter: blur(3.6px);
+      display: none;
+    
+      position: absolute;
+      min-width: 1px;
+      justify-content: flex-start;
+
+      
+      margin: 41px 15px 15px 0px;
+      padding: 02px 02px 02px;
+
+   }
+   
+   
+   .menu > li :hover 
+   {
+      list-style-type: none;
+      margin: 10px;
+      background: rgba(34, 243, 145, 0.548);
+   }
+
+   .menu li:hover .sub-menu{
+      display: flex;
+      margin-bottom: 100px;
+      align-items: left;
+   }
+   
+   
+     .sub-menu span:hover {
+         clear: both;
+         display: flex;
+         position: relative;
+         border-width: small;
+         border-style: bold;
+         border-color: burlywood;
+         /*padding:  20% 0%;*/
+         margin: 2px 2px 2px 0px;}
+
+    
+   .menu li {
+      display: inline-flex;
+   }
+   .menu > li {
+      float: left;
+   }
+   .menu a {
+      display: inline-block;
+      color: rgba(238, 18, 201, 0.932);
+      padding: 10px 10px;
+      text-transform: uppercase;
+       }
+       
+     .menu .sub-menu  a {
+      clear: both;
+      position: relative;
+      float: left;
+      display: inline-flex;
+      color: rgb(236, 32, 255);
+      padding: 8px 1px 0px 5px;
+      left: 0px;
+      text-transform: none;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     .menu .sub-menu  ul li:nth-last-child(odd) {
+      clear: both;
+      float: left;
+      width: 50%;
+     }
+     .menu .sub-menu  ul li:nth-child(2n+2)
+       
+
+   .zoom:link, .zoom:visited, .zoom:active {
+      text-decoration: none;
+   }
+   .zoom:hover {
+      text-decoration: underline;
+  	   color: rgba(107, 0, 139, 0.719);
+  	   font-size: 150%;
+   }
+
+   .bannerimg {
+    width: 271px;
+    height: 190px;
+    border-radius: 16px;
+    background-image: url('/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ } 
+
+ .cor:link, .cor:visited, .cor:active {
+    text-decoration: none; font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .cor:hover {
+    text-decoration: none;
+    background-color: rgba(8, 91, 245, 0.164);
+    border-radius: 75px;
+    -webkit-backdrop-filter: blur(3.6px);
+    backdrop-filter: blur(3.6px);
+ }
+ 
+
+.sub-menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+
+.sub-menu li:hover > .sub-menu {
+    display: block;
+}

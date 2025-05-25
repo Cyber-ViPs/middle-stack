@@ -1,0 +1,22 @@
+{
+  "name": "sua-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "author": "TokyoScripts",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.37.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
